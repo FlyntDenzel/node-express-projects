@@ -1,0 +1,20 @@
+{
+  "name": "express-projects",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/FlyntDenzel/node-express-projects#readme",
+  "bugs": {
+    "url": "https://github.com/FlyntDenzel/node-express-projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlyntDenzel/node-express-projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "alternative.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
