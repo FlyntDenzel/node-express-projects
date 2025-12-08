@@ -1,8 +1,13 @@
 const http = require("http");
 
 const server = http.createServer((req, res) => {
-    res.write('Welcome to my first server')
-    res.end()
+  if (req.url === "/") {
+    res.end("Welcome to my homepage");
+  } else if (req.url === "/about") {
+    res.end("Welcome to my about page");
+  } else {
+    res.end(`<h1>404! There is no page found</h1>`);
+  }
 });
 
-server.listen(5000)
+server.listen(8000);
