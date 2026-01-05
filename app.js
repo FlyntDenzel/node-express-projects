@@ -1,6 +1,10 @@
-const _ = require('lodash')
+const http = require('http')
 
-const items = [1, [2, [3, [4]]]]
-const newItem = _.flattenDeep(items)
-console.log(newItem);
-console.log(newItem)
+
+const server = http.createServer((req, res) => {
+
+})
+
+server.listen(5000, () => {
+    console.log('server is ready on port 5000...')
+})
